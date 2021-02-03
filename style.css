@@ -1068,3 +1068,14 @@ h1.tc-white
 {
     font-weight: bold;
 }
+
+cite
+{
+    color: black;
+}
+
+#texte-p
+{
+    text-align: center;
+    font-weight: 600;
+}
