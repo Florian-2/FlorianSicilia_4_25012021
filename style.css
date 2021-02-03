@@ -9,7 +9,7 @@ body {
 
 a,
 button {
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
     text-decoration: none;
 }
 
@@ -773,15 +773,16 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    transform: scale(1.05);
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #ffffff!important;
+    opacity: 0.85;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    opacity: 1;
 }
 
 .ltc-atomic-tangerine {
