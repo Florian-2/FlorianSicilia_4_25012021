@@ -75,21 +75,6 @@ button {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-} 
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-} 
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -279,7 +264,7 @@ button {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .navbar {
@@ -760,7 +745,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f3976cad;
 }
 
 .tc-white {
@@ -798,9 +783,7 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
+
 
 .bg-banniere {
     background-image: url("img/banniere.jpg");
@@ -957,8 +940,8 @@ h4 {
         margin-left: 10px;
     }
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     .bloc-xxl,
     .bloc-xl,
@@ -1013,8 +996,8 @@ h4 {
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 
@@ -1077,4 +1060,44 @@ cite
 {
     text-align: center;
     font-weight: 600;
+}
+
+#titre-h2
+{
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.5;
+}
+
+.backColor
+{
+    background-color: #ffc9b0;
+}
+
+.titre-font
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: none;
+}
+
+.titre-form
+{
+    margin-bottom: 30px;
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    padding: 4px 0 !important;
+    text-transform: none;
+}
+
+.titre-form::before
+{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
